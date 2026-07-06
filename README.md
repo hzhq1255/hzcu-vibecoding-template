@@ -6,6 +6,13 @@
 
 你可以基于这个骨架，使用任意技术栈完成你的课程项目。
 
+## 环境配置
+
+环境配置视频教程（含 OpenCode 安装、DeepSeek 连接、项目初始化全流程）：
+[https://www.bilibili.com/video/BV151T26CE33/](https://www.bilibili.com/video/BV151T26CE33/)
+
+> 如果本地环境还未配置好，请先看这个视频，跟着做一遍。
+
 ## 目录结构
 
 ```

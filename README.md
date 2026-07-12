@@ -13,6 +13,37 @@
 
 > 如果本地环境还未配置好，请先看这个视频，跟着做一遍。
 
+## 开发工作流 Skill
+
+本项目内置了 4 个 Agent Skill，对应 VIBECODING 课程实践的 4 个开发阶段。在 OpenCode 中按阶段依次调用。
+
+| Skill | 阶段 | 用法 | 说明 |
+|---|---|---|---|
+| `vibecoding-require` | 1️⃣ 需求明确 | `skill vibecoding-require` | 把模糊想法写成有边界、可验收的任务契约 |
+| `vibecoding-plan` | 2️⃣ 生成计划并审查 | `skill vibecoding-plan` | 先出完整 Plan，人工审查后再允许写代码 |
+| `vibecoding-build` | 3️⃣ 实现 | `skill vibecoding-build` | 后端→前端→联调，分步推进，每步只改对应目录 |
+| `vibecoding-verify` | 4️⃣ 验收 | `skill vibecoding-verify` | 页面/接口/数据库三方同时验证 |
+
+### 使用流程
+
+在项目目录下启动 OpenCode 后，按阶段依次调用：
+
+```
+# 阶段 1：明确需求
+skill vibecoding-require
+
+# 阶段 2：生成开发计划（确认需求后再调用）
+skill vibecoding-plan
+
+# 阶段 3：开始实现（确认计划后再调用）
+skill vibecoding-build
+
+# 阶段 4：验收检查（项目完成后调用）
+skill vibecoding-verify
+```
+
+Skill 文件位于 `.agents/skills/` 目录下，可直接查看每个 Skill 的详细指令。
+
 ## 目录结构
 
 ```

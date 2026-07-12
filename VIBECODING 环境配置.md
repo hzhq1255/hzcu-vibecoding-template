@@ -6,6 +6,8 @@
 
 **你需要完成的目标：** 在一台 Windows 11 电脑上，装好命令行工具和编辑器，跑通 OpenCode，连上 DeepSeek 的 API，能对一个真实项目做**只读分析**和**代码生成**。
 
+![VIBECODING 环境配置总览](images/vibecoding-env-overview.png)
+
 ---
 
 ## 本文最终目标
